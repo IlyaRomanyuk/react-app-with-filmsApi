@@ -1,0 +1,43 @@
+.appWrapper{
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.appWrapperContent{
+    max-width: inherit;
+    width: inherit;
+    height: auto;
+
+    background-color: rgb(250, 232, 208)
+}
+
+ /*state = {
+    url: null
+  }
+
+  componentDidMount() {
+    axios.get(`https://api.themoviedb.org/3/movie/55?api_key=0867ba5883e921d5cf9d6599fc0767b0&language=en-US
+    `).
+      then(response => {
+        let data = response.data.backdrop_path;
+        console.log(response.data);
+        this.setState({
+          url: data
+        })
+      })
+  }
+
+
+
+  render() {
+    console.log(this.state.url);
+    return (
+      <div>
+        <p>Hello</p>
+        <img src={`https://image.tmdb.org/t/p/w500/${this.state.url}`} />
+      </div>
+
+    )
+  }*/
